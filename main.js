@@ -1,11 +1,11 @@
 //array of beginning phrases for generator
-const beginningPhrases = ['A bird in', ];
+const beginningPhrases = ['A bird in', 'A dog that bites' ];
 
 //array of middle phrases for generator
-const middlePhrases = ['the hand is worth', ];
+const middlePhrases = ['the hand is worth', 'never bites' ];
 
 //array of endings for generator
-const endPhrases = ['two in the bush', ];
+const endPhrases = ['two in the bush', 'the hand that feeds' ];
 
 //main function, takes one of each type of phrase and creates a new saying from the three
 const chineseFortuneGenerator = () => {
@@ -18,3 +18,7 @@ const chineseFortuneGenerator = () => {
     console.log(`Your chinese fortune is: ${beginning} ${middle} ${end}`)
 
 }; 
+
+chineseFortuneGenerator();
+chineseFortuneGenerator();
+
